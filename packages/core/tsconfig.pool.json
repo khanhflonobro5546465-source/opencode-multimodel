@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": false,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "incremental": false,
+    "noEmit": true,
+    "tsBuildInfoFile": null
+  },
+  "include": [
+    "src/session/model-pool.ts",
+    "src/session/collaboration.ts",
+    "src/session/runner/llm.ts",
+    "src/tool/plugin/collaborate.ts",
+    "src/plugin/internal.ts"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": false,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "incremental": false,
+    "noEmit": true,
+    "tsBuildInfoFile": null
+  },
+  "include": ["src/session/collaboration/collaboration.tsx", "src/session/screen.tsx"]
+}
